@@ -55,7 +55,7 @@ export default class App extends PureComponent {
 
     axios({
       method:'POST',
-      url:'https://us-central1-react-native-stripe-67233.cloudfunctions.net/completePaymentWith3DSecureStripe',
+      url:'https://us-central1-react-native-stripe-67233.cloudfunctions.net/completePaymentWithStripe',
       data: {
         amount: 100,
         currency: 'usd',
